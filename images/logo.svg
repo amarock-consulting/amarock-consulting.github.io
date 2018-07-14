@@ -1,0 +1,97 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(188 407)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -188 -407L 12 -407L 12 -207L -188 -207L -188 -407Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Logo" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Vector 3">
+<use xlink:href="#path0_fill" transform="translate(-188 -307)" fill="#89105E"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-125.5 -307)" fill="#CD478E"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path2_fill" transform="translate(-188 -307)" fill="#6E185C"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path3_fill" transform="translate(-133.833 -307)" fill="#C03C85"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-113 -269.5)" fill="#747499"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path5_fill" transform="translate(-138 -286.167)" fill="#C05995"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path6_fill" transform="translate(-125.5 -261.167)" fill="#C1CDD5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="translate(-188 -407)" fill="#C1CDD5"/>
+<use xlink:href="#path8_fill" transform="translate(-188 -407)" fill="#C1CDD5"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path9_fill" transform="translate(-138 -357)" fill="#E4E9ED"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path10_fill" transform="translate(-188 -327.833)" fill="#B6C4CC"/>
+</g>
+<g id="Vector 5">
+<use xlink:href="#path11_fill" transform="translate(-125.5 -407)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector 3">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 -1 12 -307)" fill="#89105E"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="matrix(-1 0 0 -1 -50.5 -307)" fill="#CD478E"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path2_fill" transform="matrix(-1 0 0 -1 12 -307)" fill="#6E185C"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path3_fill" transform="matrix(-1 0 0 -1 -42.1667 -307)" fill="#C03C85"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="matrix(-1 0 0 -1 -63 -344.5)" fill="#747499"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path5_fill" transform="matrix(-1 0 0 -1 -38 -327.833)" fill="#C05995"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path6_fill" transform="matrix(-1 0 0 -1 -50.5 -352.833)" fill="#C1CDD5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="matrix(-1 0 0 -1 12 -207)" fill="#C1CDD5"/>
+<use xlink:href="#path8_fill" transform="matrix(-1 0 0 -1 12 -207)" fill="#C1CDD5"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path9_fill" transform="matrix(-1 0 0 -1 -38 -257)" fill="#E4E9ED"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path10_fill" transform="matrix(-1 0 0 -1 12 -286.167)" fill="#B6C4CC"/>
+</g>
+<g id="Vector 5">
+<use xlink:href="#path11_fill" transform="matrix(-1 0 0 -1 -50.5 -207)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 54.1667 20.8333L 62.5 0L 0 0L 54.1667 20.8333Z"/>
+<path id="path1_fill" d="M 12.5 29.1667L 0 0L 37.5 0L 37.5 37.5L 12.5 29.1667Z"/>
+<path id="path2_fill" d="M 50 33.3333L 54.1667 20.8333L 0 0L 62.5 50L 50 33.3333Z"/>
+<path id="path3_fill" d="M 20.8333 29.1667L 8.33333 0L 0 20.8333L 20.8333 29.1667Z"/>
+<path id="path4_fill" d="M 0 8.33333L 25 0L 25 62.5L 0 8.33333Z"/>
+<path id="path5_fill" d="M 0 12.5L 4.16667 0L 50 16.6667L 12.5 29.1667L 0 12.5Z"/>
+<path id="path6_fill" d="M 0 4.16667L 12.5 0L 37.5 54.1667L 0 4.16667Z"/>
+<path id="path7_fill" d="M 54.1667 79.1667L 0 100L 54.1667 58.3333L 50 66.6667L 54.1667 79.1667Z"/>
+<path id="path8_fill" d="M 100 0L 62.5 100L 62.5 50L 100 0Z"/>
+<path id="path9_fill" d="M 4.16667 29.1667L 12.5 50L 33.3333 4.16667L 12.5 0L 4.16667 8.33333L 0 16.6667L 4.16667 29.1667Z"/>
+<path id="path10_fill" d="M 0 20.8333L 62.5 20.8333L 54.1667 0L 0 20.8333Z"/>
+<path id="path11_fill" d="M 37.5 100L 37.5 0L 0 100L 37.5 100Z"/>
+</defs>
+</svg>
