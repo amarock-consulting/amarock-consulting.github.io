@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Amarock Digital | Amarock Consulting Limited</title>
 	<link rel='stylesheet' href='../css/style.min.css' />
+	<link rel='stylesheet' href='../css/lightbox.min.css' />
 	<meta property="og:description" content="Amarock Digital helps companies understand, prototype and deploy custom software."/>
   	<meta property="og:image" content="https://amarock.net/images/opengraph.png"/>
   	<meta property="og:title" content="Amarock Digital"/>
@@ -74,7 +75,8 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="../images/portfolio/dreamstarter_cap.png" class="expanded__image case-media-left">
+					<img src="../images/portfolio/dreamstarter_cap.png" data-basicLightbox data-id="0">
+					<img src="../images/portfolio/dreamstarter_cap.png" class="expanded__image case-media-left" data-show-id="0">
 					<img src="../images/portfolio/dreamstarter_logo.png" class="expanded__image case-media-right">
 				</div>
 				<div class="expanded__content">
@@ -90,7 +92,8 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="../images/portfolio/cga_cap.png" class="expanded__image case-media-left">
+					<img src="../images/portfolio/cga_cap.png" data-basicLightbox data-id="1">
+					<img src="../images/portfolio/cga_cap.png" class="expanded__image case-media-left" data-show-id="1">
 					<img src="../images/portfolio/cga_logo.png" class="expanded__image case-media-right">
 				</div>
 				<div class="expanded__content">
@@ -106,7 +109,8 @@
 		<div class="container">
 			<div class="expanded__inner">
 				<div class="expanded__media">
-					<img src="../images/portfolio/entr101_cap.png" class="expanded__image case-media-left">
+					<img src="../images/portfolio/entr101_cap.png" data-basicLightbox data-id="2">
+					<img src="../images/portfolio/entr101_cap.png" class="expanded__image case-media-left" data-show-id="2">
 					<img src="../images/portfolio/entr101_logo.png" class="expanded__image case-media-right">
 				</div>
 				<div class="expanded__content">
@@ -164,7 +168,9 @@
 		</div>
 	</div>
 
-<script src='../js/app.min.js'></script>
+<script src="../js/app.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/digital.js"></script>
 <style>
 .link.white {
 	color: #ffffff;
@@ -179,13 +185,12 @@
 }
 .case-media-left {
 	float: left;
-	margin-right: -3rem;
-	margin-bottom: -3rem;
 }
 .case-media-right {
-	float: right;
-	margin-left: -3rem;
-	margin-top: -3rem;
+	float: left;
+	margin-left: -10%;
+	margin-top: -10%;
+	width: 30%;
 }
 .case.landing__section:nth-child(odd) {
     background-color: #ffffff;
