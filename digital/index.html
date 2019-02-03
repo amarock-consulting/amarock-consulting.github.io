@@ -38,7 +38,8 @@
 				<a href="/digital" class="navbar__logo"><img src="../images/logo.svg" class="navbar__logo_img"><span id="amarock">AMAROCK DIGITAL</span></a>
 				<nav class="navbar__menu">
 					<ul>
-						<li><a class="scroll" href="">Portfolio</a></li>
+						<li><a class="scroll" href="#portfolio">Portfolio</a></li>
+						<li><a class="scroll" href="#cta">Contact</a></li>
 					</ul>
 				</nav>
 				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
@@ -54,7 +55,7 @@
 				<div class="page__header__content">
 					<div class="page__header__content__inner" id="navConverter">
 						<h1 class="page__header__title">Hi there!</h1>
-						<h3 class="page__header__title">We help companies understand, prototype and deploy custom software.</h3>
+						<h3 class="page__header__title">We help you understand, prototype and deploy custom software and products.</h3>
 						<div>MISSION</div>
 						<div class="center">As trained software engineers, we believe companies can be transformed by using technology with precision and clarity. <a class="link white" href="#about">Read more</a>.</div>
 					</div>
@@ -70,12 +71,7 @@
 				</div>
 				<div class="expanded__content">
 					<h2 class="expanded__title">Client Portfolio</h2>
-					<p class="expanded__text">From company sites, blogs to dynamic forum software, Amarock Digital creates products that seamlessly blends into companies' brand and operations.</p>
-					<div>
-						<a href="#dreamstarter"><img src="../images/portfolio/dreamstarter_logo.png" class="clients__image"></a>
-						<a href="#cga"><img src="../images/portfolio/cga_logo.png" class="clients__image"></a>
-						<a href="#entr101"><img src="../images/portfolio/entr101_logo.png" class="clients__image"></a>
-					</div>
+					<p class="expanded__text">From company sites, blogs, web scraping to dynamic content collection software, Amarock Digital creates products that seamlessly blends into your brand and operations.</p>
 				</div>
 			</div>
 		</div>
@@ -92,7 +88,7 @@
 				<div class="expanded__content">
 					<h2 class="expanded__title">Dreamstarter</h2>
 					<small class="right-align">HONG KONG</small>
-					<p class="expanded__text">Dynamic API-based page for a Hong Kong social enterparise.</p>
+					<p class="expanded__text">Dynamic API-based site for a Hong Kong social enterprise.</p>
 					<a href="https://dreamstarter.hk" target="_blank" class="button">Live Site</a>
 				</div>
 			</div>
@@ -126,33 +122,37 @@
 				<div class="expanded__content">
 					<h2 class="expanded__title">ENTR101</h2>
 					<small>HONG KONG</small>
-					<p class="expanded__text">Custom knowledge repository created for a Hong Kong startup community.</p>
-					<a href="http://entr101.com" target="_blank" class="button">Live Site</a>
+					<p class="expanded__text">Dynamic blog for a Hong Kong startup community.</p>
 				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Call To Action -->
-	<div class="cta cta--reverse">
-		<div class="container">
-			<div class="cta__inner">
-				<h2 class="cta__title">Looking for a tailored solution?</h2>
-				<p class="cta__sub cta__sub--center"></p>
-				<a href="mailto:info@amarock.net" class="button button__accent">Contact Us</a>
 			</div>
 		</div>
 	</div>
 	<div class="expanded landing__section" id="about">
 		<div class="container">
 			<div class="expanded__inner">
+				<div class="expanded__content">
+					<h2 class="expanded__title">Amarock Digital</h2>
+					<p class="expanded__text">From company sites, blogs, web scraping to dynamic content collection software, Amarock Digital creates products that seamlessly blends into your brand and operations.</p>
+				</div>
 				<div class="expanded__media">
 					<img src="../images/logo.svg" class="expanded__image"/>
-					<span id="amarock-digital">AMAROCK DIGITAL</span>
 				</div>
-				<div class="expanded__content">
-					<h2 class="expanded__title">About Us</h2>
-					<p class="expanded__text">From company sites, blogs to dynamic forum software, Amarock Digital creates products that seamlessly blends into the company image and workflow.</p>
-				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Call To Action -->
+	<div class="cta cta--reverse" id="cta">
+		<div class="container">
+			<div class="cta__inner">
+				<h2 class="cta__title">Want to build a tailor-made website with us?</h2>
+				<p class="cta__sub cta__sub--center">Tell us your requirements, budget and delivery time.<br/>We usually get back in 1-2 business days.</p>
+				<form action="https://jumprock.co/mail/amarockinfo" method="post">
+					<input type="text" name="trapit" value="" style="display:none">
+					<input type="text" name="email" placeholder="Your Email" />
+					<textarea name="message" placeholder="What do you want to build?"></textarea>
+					<input class="button button__accent" type="submit" value="Start Our Discussion" />
+					<input type="hidden" name="after" value="https://amarock.net/digital/form-submitted">
+				</form>
 			</div>
 		</div>
 	</div>
@@ -173,12 +173,12 @@
 				</div>
 			</div>
 			<p id="copyright">
-				&copy; 2017-2018 Amarock Consulting Limited
+				&copy; 2019 Amarock Consulting Limited
 			</p>
 		</div>
 	</div>
 
-<script src="../js/app.min.js"></script>
+<script src="../js/app.js"></script>
 <script src="../js/lightbox.min.js"></script>
 <script src="../js/digital.js"></script>
 <style>
@@ -206,22 +206,17 @@
     background-color: #ffffff;
     border: none;
 }
-#amarock-digital {
+.amarock-digital {
 	display: inline-block;
 	border: 2px solid #063653;
 	color: #063653;
 	padding: 5px 20px;
 	letter-spacing: 4px;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	pointer-events: none;
 }
-.clients__image {
-	border: 2px solid #d2d2d2;
-	height: 80px;
-	opacity: 0.6;
-}
-.clients__image:hover {
-	opacity: 1;
+.amarock-digital.smaller {
+	font-size: 1rem;
 }
 
 @media (min-width: 992px) {
